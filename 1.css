@@ -1,0 +1,167 @@
+body{
+    font-size: 16;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: wheat;
+    margin-left: 30px;
+    padding: 0;
+}
+img{
+    width: 140px;
+    height: 140px;
+    border: 3px solid #ccc;
+    background: #eee; 
+   
+}
+
+.one{
+    background-color: rgb(0, 60, 255);
+    margin-top: 25px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 15px;
+   font-weight: bold;
+}
+.first{
+    background-color: rgb(0, 255, 255);
+    margin-top: 25px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 15px;
+   font-weight: bold;
+height: 150px;
+}
+.second{
+    background-color: rgb(0, 255, 13);
+    margin-top: 25px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 15px;
+   font-weight: bold;
+   height: 150px;
+   
+}
+.third{
+    background-color: rgb(200, 255, 0);
+    margin-top: 25px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 15px;
+   font-weight: bold;
+}
+.fourth{
+    background-color: rgb(145, 255, 0);
+    margin-top: 25px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 15px;
+   font-weight: bold;
+   height: 170px;
+}
+.fifth{
+    background-color: rgb(0, 132, 255);
+    margin-left: 60px;
+  
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 15px;
+   font-weight: bold;
+}
+.main{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+ul{
+    list-style: inside;
+}
+table{
+    margin-left: 60px;
+  
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 15px;
+   font-weight: bold;
+   position: relative;
+   margin: auto;
+   background-color: rgb(19, 225, 33);
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-style: italic;
+}
+caption{
+    background-color: rgb(19, 225, 204);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+.form{
+    margin-left: 60px;
+  
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 15px;
+   font-weight: bold;
+   position: relative;
+   margin: auto;
+   background-color: rgb(215, 225, 19);
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: italic;
+   width: 1500px;
+}
+select {
+    width: 100%;
+    padding:10px;
+    border-radius:10px;
+    position: relative; /* to contain absolute elements */
+  padding-left:30px; /* free space for custom checkbox */
+  cursor: pointer;
+  color:aquamarine
+  }
+input{
+    width: 100%;
+    padding:10px;
+    border-radius:10px;
+    position: relative; /* to contain absolute elements */
+  padding-left:30px; /* free space for custom checkbox */
+  cursor: pointer;
+  color:blue
+  } 
+textarea{
+    width: 100%;
+    padding:10px;
+    border-radius:10px;
+    position: relative; /* to contain absolute elements */
+  padding-left:30px; /* free space for custom checkbox */
+  cursor: pointer;
+  color:aqua
+}
+input:focus {
+    color: #d70f0f;
+    background-color: #fff;
+    border-color: #bdbdbd;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+  }
+  textarea:focus {
+    color: #0b0bc8;
+    background-color: #fff;
+    border-color: #bdbdbd;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+  }
+  select:focus {
+    color: #17d13f;
+    background-color: #fff;
+    border-color: #bdbdbd;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+  }
